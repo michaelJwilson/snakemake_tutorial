@@ -1,3 +1,6 @@
+executor: slurm
+jobs: 1
+
 samples:
     A: data/samples/A.fastq
     B: data/samples/B.fastq
