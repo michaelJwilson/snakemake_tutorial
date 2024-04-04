@@ -1,0 +1,8 @@
+.snakemake/
+calls/
+data/
+mapped_reads/
+plots/
+scripts/
+snakemake-tutorial-data.tar.gz
+sorted_reads/
