@@ -1,6 +1,6 @@
-# snakemake --sdm conda -c 10
+# snakemake --sdm conda -c 10 (--use-conda) (--use-singularity)
+singularity: "docker://continuumio/miniconda3:4.4.10"
 configfile: "config.yaml"
-
 
 rule all:
     input:
